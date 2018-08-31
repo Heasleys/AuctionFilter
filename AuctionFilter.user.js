@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auction Filter
 // @namespace    Heasleys4hemp.AuctionFilter
-// @version      0.2
+// @version      0.3
 // @description  Filter Items from the Torn Auction
 // @author       Heasleys4hemp [1468764]
 // @match        https://www.torn.com/amarket.php*
