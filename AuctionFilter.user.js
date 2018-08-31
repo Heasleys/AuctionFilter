@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Auction Filter
 // @namespace    Heasleys4hemp
-// @version      0.1
+// @version      0.1.1
 // @description  Filter Items from the Torn Auction
 // @author       Heasleys4hemp [1468764]
 // @match        https://www.torn.com/amarket.php*
-// @updateURL    
+// @updateURL    https://github.com/Heasleys4hemp/AuctionFilter/raw/master/AuctionFilter.user.js
 // ==/UserScript==
 
 //array list of items to hide
