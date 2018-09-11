@@ -9,6 +9,7 @@
 // ==/UserScript==
 
 //array list of items to hide
+//I plan on making this better in the future, but it works for what I need it for.
 var arrList = ['Cricket Bat', 'Psycho Clown Mask', 'Twin Tiger Hooks', 'Old Lady Mask', 'Scarred Man Mask', 'Nun Mask', 'Young Lady Mask', 'Ginger Kid Mask', 'Moustache Man Mask', 'Kama', 'Exotic Gentleman Mask', 'Wushu Double Axes', 'Mini Cooper S'];
 //MutationObserver used to monitor specific activity
 const observer = new MutationObserver(() => {
