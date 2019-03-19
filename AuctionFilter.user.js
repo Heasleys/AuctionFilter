@@ -8,6 +8,12 @@
 // @updateURL    https://github.com/Heasleys4hemp/AuctionFilter/raw/master/AuctionFilter.user.js
 // ==/UserScript==
 
+//copy pagination-wrap (the page selector element) and paste it to the top of it's own parent element
+$('.pagination-wrap').each(function(i, obj) {
+    $(this).clone().prependTo($(this).parent());
+});
+
+
 //array list of items to hide
 //I plan on making this better in the future, but it works for what I need it for.
 var arrList = ['Cricket Bat', 'Psycho Clown Mask', 'Twin Tiger Hooks', 'Old Lady Mask', 'Scarred Man Mask', 'Nun Mask', 'Young Lady Mask', 'Ginger Kid Mask', 'Moustache Man Mask', 'Kama', 'Exotic Gentleman Mask', 'Wushu Double Axes', 'Mini Cooper S'];
